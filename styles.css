@@ -1,0 +1,92 @@
+/* Reset some default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrolling */
+    font-family: Arial, sans-serif;
+}
+
+/* Game container to hold the 3D canvas */
+#game-container {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000; /* Black background while the game loads */
+    overflow: hidden;
+}
+
+/* Store container */
+#store-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+#store-container h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+#store-container button {
+    display: block;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#store-container button:hover {
+    background: #0056b3;
+}
+
+#store-container #balance {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Controls container */
+#controls-container {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+#controls-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#controls-container button:hover {
+    background: #218838;
+}
+
+#controls-container #interact {
+    background: #ffc107;
+    color: #333;
+}
+
+#controls-container #interact:hover {
+    background: #e0a800;
+}

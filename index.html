@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Open-World Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.152.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.152.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="main.js" defer></script>
+    <script src="store.js" defer></script>
+</head>
+<body>
+    <div id="game-container"></div>
+    <div id="store-container">
+        <h2>In-Game Store</h2>
+        <button id="buy-weapon">Buy Weapon (100 Coins)</button>
+        <button id="buy-license">Buy Weapon License (Real Money)</button>
+        <p id="balance">Coins: 200</p>
+    </div>
+    <div id="controls-container">
+        <button id="move-left">Left</button>
+        <button id="move-right">Right</button>
+        <button id="move-up">Up</button>
+        <button id="move-down">Down</button>
+        <button id="interact">Interact</button>
+    </div>
+</body>
+</html>
